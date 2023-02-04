@@ -1,0 +1,23 @@
+{
+  "name": "languageguesser",
+  "version": "1.0.0",
+  "description": "Language guesser program using node.js and Franc npm module ( based on natural language processing )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreeroop10/LanguageGuesser.git"
+  },
+  "author": "Sreeroop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreeroop10/LanguageGuesser/issues"
+  },
+  "homepage": "https://github.com/sreeroop10/LanguageGuesser#readme",
+  "dependencies": {
+    "franc": "^6.1.0",
+    "lang": "^0.1.1"
+  }
+}
