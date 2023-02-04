@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Language guesser program using node.js and Franc npm module ( based on natural language processing )",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/sreeroop10/LanguageGuesser#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "franc": "^6.1.0",
-    "lang": "^0.1.1"
+    "lang": "^0.1.1",
+    "langs": "^2.0.0"
   }
 }
